@@ -1,0 +1,98 @@
+//@import "../../static/css/main";
+
+.loginContainer {
+    min-width: 320px;
+    max-width: 400px;
+    height: auto;
+    position: absolute;
+    top: 20%;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+
+    Paper {
+        overflow: auto;
+    }
+    
+    .form {
+      padding: 20px;
+      overflow: auto;
+    }
+
+    .space {
+        margin-top: 50px;
+        margin-bottom: 0px;
+    }
+
+    .title {
+        padding: 20px;
+        margin-top: 20px;
+        background-color: #ffffff;
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .headLabel {
+        text-align:center;
+        color:#0080ff;
+        font-size: 20px;
+        background-color:#ffffff;
+    }
+    
+    .dashBtn {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 80px;
+        float: left;
+    }
+    .btnGroup {
+        width: 90%;
+    }
+
+    .inputGroup {
+        width: 90%;
+    }
+    .image {
+        margin: auto;
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+    .nextBtn {
+      float: right;
+      margin: 10px;
+      color: #0080ff;
+    }
+    
+    .backBtn {
+      margin-top: 10px;
+      color: #c0c0c0;
+    }
+}
+
+div.btnGroup button.button {
+    background-color: #ffffff !important;
+    // border-color: #c0c0c0 !important;
+    border: solid 1px #c0c0c0 !important;
+    width: 30%;
+    padding: 11px 5px;
+}
+
+div.btnGroup button.button:focus {
+    background-color: #0080ff !important;
+    border-color: #0080ff !important;
+    color: #ffffff
+}
+
+div.sel i {
+    color: #0080c0
+}
+
+button.btnGo i {
+    background-color: #ffffff !important;
+    border: solid 1px #0080ff !important;
+    border-left: none !important;
+}
+
+div.inputGroup input {
+    width: 30%
+}
